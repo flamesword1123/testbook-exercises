@@ -2,6 +2,8 @@ public class Shapes {
 
   public static void main(String[] args) {
     diamond();
+    System.out.println();
+    rectangle();
   }
 
   public static void diamond(){
@@ -34,6 +36,20 @@ public class Shapes {
 
       for(int stars = 5; stars >= (7 - 2 * line); stars--){
         System.out.print("*");
+      }
+
+      System.out.println();
+
+    }
+  }
+
+  public static void rectangle() {
+    for(int line = 1; line <=5; line++){
+
+      for(int star = 1; star <= 10; star++){
+        System.out.print("*");
+      //System.out.print("**********");
+      //System.out.println();
       }
 
       System.out.println();
