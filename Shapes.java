@@ -1,10 +1,13 @@
 public class Shapes {
 
   public static void main(String[] args) {
+    diamond();
+  }
+
+  public static void diamond(){
     upTriangle();
     downTriangle();
   }
-
 
   public static void downTriangle() {
     for(int line = 1; line<= 5; line++){
