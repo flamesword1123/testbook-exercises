@@ -48,8 +48,7 @@ public class Shapes {
 
       for(int star = 1; star <= 10; star++){
         System.out.print("*");
-      //System.out.print("**********");
-      //System.out.println();
+
       }
 
       System.out.println();
