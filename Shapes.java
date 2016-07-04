@@ -4,8 +4,6 @@ public class Shapes {
     diamond();
     System.out.println();
     rectangle();
-
-    System.out.println("\nProgram Done"); 
   }
 
   public static void diamond(){
