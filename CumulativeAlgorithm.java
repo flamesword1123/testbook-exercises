@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CumulativeAlgorithm {
+public class CumulativeSum {
 
 	public static void main (String[] args) {
 		System.out.println("This program adds a sequence of");
