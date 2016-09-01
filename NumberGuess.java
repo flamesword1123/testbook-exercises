@@ -15,7 +15,6 @@ public class NumberGuess {
 		int number = rand.nextInt(100);
 
 		//gets first guess
-		System.out.print("Your guess? ");
 		int guess = getGuess(console);
 		int numGuesses = 1;
 
